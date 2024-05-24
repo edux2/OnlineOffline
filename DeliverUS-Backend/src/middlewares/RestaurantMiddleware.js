@@ -12,6 +12,7 @@ const checkRestaurantOwnership = async (req, res, next) => {
   }
 }
 
+// solucion
 const checkDeliveredAtNotNull = async (req, res, next) => {
   try {
     const order = await Order.findOne({

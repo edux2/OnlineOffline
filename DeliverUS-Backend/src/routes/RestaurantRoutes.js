@@ -22,6 +22,8 @@ const loadFileRoutes = function (app) {
       RestaurantMiddleware.checkDeliveredAtNotNull,
       RestaurantController.create)
 
+  // solucion
+
   app.route('/restaurants/:restaurantId/status')
     .patch(
       isLoggedIn,

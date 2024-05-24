@@ -23,6 +23,7 @@ function remove (id) {
   return destroy(`restaurants/${id}`)
 }
 
+// solucion
 function changeStatus (id) {
   return patch(`restaurants/${id}/status`)
 }

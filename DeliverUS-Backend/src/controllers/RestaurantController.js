@@ -71,6 +71,7 @@ const show = async function (req, res) {
   }
 }
 
+// solucion
 const changeStatus = async function (req, res) {
   const t = await sequelizeSession.transaction()
   try {
@@ -123,6 +124,7 @@ const RestaurantController = {
   show,
   update,
   destroy,
+  // solucion
   changeStatus
 }
 export default RestaurantController

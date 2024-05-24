@@ -1,3 +1,4 @@
+// solucion
 import React from 'react'
 import { Modal, Pressable, StyleSheet, View } from 'react-native'
 import { MaterialCommunityIcons } from '@expo/vector-icons'
